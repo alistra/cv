@@ -5,8 +5,8 @@ env:
  global:
    - "ARTIFACTS_AWS_REGION=us-east-1"
    - "ARTIFACTS_S3_BUCKET=alistra-cv"
-   - secure: "Tozg82OkZV88/nhdf/fTL/M5v59t6YHNS0KBywufeS8PgvRB3OC/zbb+iSzA\nokyik/qpA4eJIYMIGK5vm0RU3d8hOdHG6VIl8nI6YMkNv4qauqyMVQ4k2e5z\n+uojB3yOsSi8Sr2pO2aEahOyth/C4+JvC/Jhj25sNDxMUiRz3mI="
-   - secure: "Yp8zWIlygo5ctmEYBZOFZFCBYhrXR0QjDB9SGrylmg5Y6YKS9Kv0ed9FlIcE\nsr5PXbDLDZHPCHVgrKghWD/u0xRhxBbJhQVMvowkF1vAuaMZ9Wnkcztw8vCe\nsq/pHpcB2+kWE4az8GqDVdUlhJt8c+WMUZtvxPy9EUHPRwuYLYs="
+   - secure: "h7IwcPmKP+/s3CF+ydxVGK/2fJQO3/v1Yfncto1FWvCm00Vc22P23s9SoYsN\niWNty1GM0THAHgVR4RxU35p2S5LN3qHfWvWPvv4Je+GoA7WO2v6MubGaZl8J\n2e4j/RyzshvSpD9EWbcj/YCzbdAxZo0XvbDs6dWkbPr6Jte5MkU="
+   - secure: "GWhd1ALFg9Rt1wYDyIeBrl+qcEcgmTDM40rii4CnYJi0lgZKF/Iys+lTsRVI\ngORD8goxwBmStLoNptVdLgLfDDCybLDNVmcK6yztQ3mzo5+JEs6ke9ePU5cG\n8eJ7HQf78oBcUPpdCASFgYWHkVu9SYIClsOBD0+NASp9v2qnohQ="
 
 before_install:
  - sudo apt-get install rubber
