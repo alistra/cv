@@ -11,7 +11,7 @@ for url in urls:
     try:
         connection = urllib.request.urlopen(url)
         if connection.getcode() != 200:
-            exit(url + " http code not 200")
+            exit(url + " http response not 200")
         connection.close()
     except:
-        exit(url + " exception")
+        exit("problem with " + url)
