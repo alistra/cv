@@ -1,5 +1,5 @@
 cv.pdf: cv.tex urlcheck
-	rubber -d cv.tex
+	pdflatex cv.tex
 	rm -f cv.aux cv.out cv.log
 
 clean:
