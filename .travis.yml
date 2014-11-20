@@ -1,6 +1,6 @@
 language: python
 python:
- - "3.2"
+ - "2.7"
 env:
  global:
    - "ARTIFACTS_AWS_REGION=us-east-1"
