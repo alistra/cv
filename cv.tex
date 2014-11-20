@@ -125,9 +125,15 @@ I use {\bf AppCode} instead of Xcode, because it makes coding less mundane. I pr
 
 \begin{itemize}
 	\item iOS Development \begin{itemize}
-		\item Advanced knowledge of the iOS Build System (xctool, xcodebuild), codesigning, Enterprise teams, building Apps to Testflight and App Store from the command line, automatic App Store screenshot preparation using frank tests.
-		\item Advanced knowledge of UIKit, Foundation, GCD, iOS Human Interface Guidelines, Frank tests.
-		\item Intermediate knowledge of Core Data, AppleScript, AutoLayout, Swift.
+
+		\item {\bf Front end} I know how to create multitouch {\bf UIKit} animations that don't snap, when you add or remove fingers. I have the power to control the time (just in {\bf Core Animation} objects implementing {\bf CAMediaTiming}). I do all the layout in code instead of .xib files, as it's safer and easier to code review. Recently I started using {\bf AutoLayout}, but most of my complex layout work was done by hand in layoutSubviews. I always pester the designers, that something is not according to the {\bf Apple Human Interface Guidelines}.
+		
+		\item {\bf Back end} I don't understand why people use {\bf AFNetworking} if they don't cancel the {\bf NSOperations}, they could have just used the Apple libraries. I learned the hard way, that besides using a {\bf Core Data} managed object context on only one queue, you also have to intialize it on the same queue. During code reviews I usually have to explain what a {\bf dispatch\_group} does and that doing a lot of boolean flags isn't the way. I wanted to add {\bf Swift} to the app, but {\bf CocoaPods} not yet support Swift fully.
+		
+		\item {\bf Testing} I've written unit tests, but most of my testing was done in {\bf Frank}, selenium-like ruby acceptance test framework. I wrote support for resetting the state of the simulator and helped the QA team add accessibilityLabels. I've helped create a Frank scenario to generate all the required screenshots in the Apps, because doing 5 screens on 4 devices for 12 languages for 25 apps isn't feasible manually.
+		
+		\item {\bf Build system} Building 25 apps every time you develop something is easier when you have full automation. I developed a build system that works from the command line, supports multiple Apple programs (including {\bf Enterprise}), signs the IPA properly and uploads to {\bf Testflight} or the {\bf iTunes Connect}. I use {\bf xctool} as the reporters nice and easily produce {\bf oclint} required files. Some scripts required {\bf AppleScript}, as not everything has a command-line equivalent.
+
 	\end{itemize}	
 
 	\item Languages - Objective-C, Haskell, Python, Ruby, C, able to learn new programming languages fast.
