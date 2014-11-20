@@ -21,11 +21,11 @@
 \def\name{Aleksander Balicki}
 \hypersetup{
   colorlinks = true,
-  urlcolor = black,
+  urlcolor = blue,
   pdfauthor = {\name},
   pdfkeywords = {computer science},
-  pdftitle = {\name: Curriculum Vitae},
-  pdfsubject = {Curriculum Vitae},
+  pdftitle = {\name: CV},
+  pdfsubject = CV,
   pdfpagemode = UseNone
 }
 
@@ -57,39 +57,56 @@
 \centerline{\huge \name}
 \vspace{0.25in}
 
+I'm a {\bf Lead iOS Developer} with a little under 3 years professional experience. I've done complex front-end ({\bf CALayer anchorPoint}
+ and {\bf transform} fun), back-end (parallel {\bf NSOperationQueue} processing) and build system tasks (full command line automation of App Store submisson). 
+
+I use {\bf AppCode} instead of Xcode, because it makes coding less mundane. I prefer to use {\bf CocoaPods}, which became a necessity with the number of Apps in Wikia. I always have {\bf Dash} (documentation browser) installed on all my iDevices. I often read Apple manuals at home for fun.
+
+\vspace{0.25in}
+
 \begin{tabularx}{\textwidth}{lXlll}
-        Phone: 	& +48 695 198 977 & Homepage: & \href{http://alistra.ath.cx/}{\tt http://alistra.ath.cx/} \\
+        Phone: 	& \href{tel:+48695198977}{+48 695 198 977} & Blog: & \href{http://alistra.ghost.io/}{\tt http://alistra.ghost.io/} \\
         Email: 	& \href{mailto:balicki.aleksander@gmail.com}{\tt balicki.aleksander@gmail.com}
         & Github: & \href{http://github.com/alistra/}{\tt http://github.com/alistra/}\\
-    \end{tabularx}
+\end{tabularx}
 
 \section*{Employment}
 
 \begin{itemize}
-    \item \href{http://www.wikia.com}{Wikia}, 2013, {\bf iOS developer}, current.
-
+    \item \href{http://www.wikia.com}{Wikia}, 2013-2014, {\bf iOS Team Tech Lead}, 1 year 1 month, current.
+        \begin{itemize}
+            \item Developing features and bug fixes for \href{https://itunes.apple.com/us/app/wikia-game-guides-walkthroughs/id422467074?mt=8}{Game Guides} and \href{https://itunes.apple.com/us/artist/wikia-inc./id422467077}{Community Apps}
+            \item Second iOS developer in the company, big impact on the architecture and design of the apps
+            \item Working on scaling the environment and the code to handle hundreds of \href{https://itunes.apple.com/us/artist/wikia-inc./id422467077}{Community Apps}
+            \item Setup of the build process of Wikia iOS apps: {\bf Jenkins}, {\bf Testflight}, {\bf JIRA API}, {\bf Automation}
+            \item Developing a modularization framework for iOS and implementing it in Wikia apps
+            \item Implementing {\bf Analytics}, {\bf i18n}, {\bf Local and Push Notifications} and {\bf A/B Tests} in the apps
+        \end{itemize}
     \item \href{http://www.morriscooke.com}{MorrisCooke}, 2012-2013, {\bf Lead iOS developer}, 11 months.
 		\begin{itemize}
-            \item Lead developer of a project under an NDA, team of 4 people
-            \item Small bug fixes in Explain Everything, Final Argument
+            \item Lead developer of \href{https://itunes.apple.com/us/app/stick-around-by-tony-vincent/id557949353?mt=8}{StickAround}, team of 4 people
+            \item Implemented a parallel, responsive engine for path crossing detection on iOS
+            \item Enhanced the presentation-to-video compression time by a factor of 2 in \href{https://itunes.apple.com/us/app/explain-everything/id431493086?mt=8}{Explain Everything}
+            \item Working with a large codebase (500k lines of code)
+            \item Advanced and complex {\bf UIView} and {\bf CALayer} management and {\bf animations}
+            \item Teaching junior developers about the platform and good software design
+            \item Introduced a proper bug tracker in the company, code style guidelines.
+            \item Architecture of the slide grid in \href{https://itunes.apple.com/us/app/final-argument/id480232096?mt=8}{Final Argument}
             \item Ported Organizer+ to the new {\bf iPhone 5 resolution} and {\bf iOS 6}
 		\end{itemize}
 
-	\item Unnamed startup, 2012, {\bf OS X developer}, 1 month
-		\begin{itemize}
-			\item Interacting with major web browsers (Firefox, Chrome, Safari) using {\bf AppleScript}
-		\end{itemize}
+	\item Timepie (never released), 2012, {\bf AppleScript developer}, 1 month
 
     \item \href{http://intres.com.pl}{Intres}, 2012, {\bf iOS and OS X developer} 10 months.
 		\begin{itemize}
 
-            \item \href{http://storeq.com}{StoreQ} - Web-based file hosting (Dropbox-like) service
+            \item StoreQ - Web-based file hosting (Dropbox-like) service
                 \begin{itemize}
-                    \item Created and designed the apps for both iOS and OS X
+                    \item Created and designed the client apps for both iOS and OS X
                     \item Frameworks used: {\bf fmdb}, {\bf Sparkle}, {\bf CDEvents}, {\bf Growl}
                 \end{itemize}
 
-            \item Added {\bf iAd} and {\bf AdMob} frameworks to \href{http://dguide.pl}{dGuide}
+            \item Integrated {\bf iAd} and {\bf AdMob} into \href{http://dguide.pl}{dGuide}
 
             \item Optimized the amount of data \href{http://dguide.pl}{dGuide} downloads upon startup (from 20MB down to 100KB)
 
@@ -97,29 +114,34 @@
 
 \end{itemize}
 
-\section*{Projects}
-\begin{itemize}
-    \item imgur-directory-listing - a photoblog, that uploads the pictures to \href{http://imgur.com}{imgur},
-        designed for slow upload connections,\\ initially written in {\bf Ruby on Rails}, rewritten in {\bf Yesod}.
-\end{itemize}
-
 \section*{Education}
 
 \begin{itemize}
-  	\item Computer Science, University of Wrocław, master's program, planning to finish 2013.
-  	\item Computer Science, University of Wrocław, finished the Bachelor's Degree on 2011.
+  	\item Computer Science, University of Wrocław, Master's Degree, planned on December 2014.
+  	\item Computer Science, University of Wrocław, Bachelor's Degree, 2011.
 \end{itemize}
 
 \section*{Skills}
 
 \begin{itemize}
-	\item Objective-C, Haskell, Python, C and I'm able to learn new programming languages fast.
-	\item Knowledge of Cocoa[Touch], GCD, iOS and OS X HIG, AppleScript basics.
+	\item iOS Development \begin{itemize}
+		\item Advanced knowledge of the iOS Build System (xctool, xcodebuild), codesigning, Enterprise teams, building Apps to Testflight and App Store from the command line, automatic App Store screenshot preparation using frank tests.
+		\item Advanced knowledge of UIKit, Foundation, GCD, iOS Human Interface Guidelines, Frank tests.
+		\item Intermediate knowledge of Core Data, AppleScript, AutoLayout, Swift.
+	\end{itemize}	
+
+	\item Languages - Objective-C, Haskell, Python, Ruby, C, able to learn new programming languages fast.
 	\item Knowledge of algorithms, data structures, databases and networking.
     \item Linux/Unix command line tools (vim, git) and scripting, network and Linux administration.
 	\item Contributed small patches to open source projects: Stash, xxxterm, jumanji, rust;\\
 		 haskell libraries: alex, imgurder, derive, Safe, XMonad.Util.Paste
 	\item Interested in compilers, static code analysis, development tools, OS X, iOS and Linux.
+\end{itemize}
+
+\section*{Projects}
+\begin{itemize}
+    \item imgur-directory-listing - a photoblog, that uploads the pictures to \href{http://imgur.com}{imgur},
+        designed for home servers with a slow upload connections,\\ initially written in {\bf Ruby on Rails}, rewritten in {\bf Yesod}.
 \end{itemize}
 
 \bigskip
